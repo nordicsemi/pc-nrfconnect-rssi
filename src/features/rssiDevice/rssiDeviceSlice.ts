@@ -60,7 +60,7 @@ const rssiSlice = createSlice({
     reducers: {
         setSerialPort: (
             state,
-            action: PayloadAction<SerialPort<AutoDetectTypes>>
+            action: PayloadAction<SerialPort<AutoDetectTypes>>,
         ) => {
             state.serialPort = action.payload;
         },
