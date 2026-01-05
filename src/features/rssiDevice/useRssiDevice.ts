@@ -36,7 +36,7 @@ export default () => {
             dispatch<AppThunk>((_, getState) => {
                 device.resumeReading(
                     getState().app.rssi.delay,
-                    getState().app.rssi.scanRepeat
+                    getState().app.rssi.scanRepeat,
                 );
             });
 

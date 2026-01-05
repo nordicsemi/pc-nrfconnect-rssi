@@ -24,7 +24,7 @@ export default () => {
             dispatch(setDelay(newDelay));
             rssiDevice?.writeDelay(newDelay);
         },
-        [dispatch, rssiDevice]
+        [dispatch, rssiDevice],
     );
 
     return (

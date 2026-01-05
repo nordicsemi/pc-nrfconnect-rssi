@@ -24,7 +24,7 @@ export default () => {
             dispatch(setScanRepeat(newScanRepeat));
             rssiDevice?.writeScanRepeat(newScanRepeat);
         },
-        [dispatch, rssiDevice]
+        [dispatch, rssiDevice],
     );
 
     return (

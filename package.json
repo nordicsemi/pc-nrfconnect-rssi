@@ -14,6 +14,7 @@
         "nrfconnect": ">=5.2.0"
     },
     "nrfConnectForDesktop": {
+        "nrfutilCore": "8.1.1",
         "nrfutil": {
             "device": [
                 "2.10.2"
@@ -47,7 +48,7 @@
         "prepare": "husky install"
     },
     "devDependencies": {
-        "@nordicsemiconductor/pc-nrfconnect-shared": "^210.0.0",
+        "@nordicsemiconductor/pc-nrfconnect-shared": "^241.0.0",
         "chart.js": "^4.0.1",
         "chartjs-plugin-datalabels": "2.2.0",
         "react-chartjs-2": "^5.0.1"

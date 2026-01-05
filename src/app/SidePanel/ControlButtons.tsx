@@ -54,7 +54,7 @@ export default () => {
             isGlobal: false,
             action: () => togglePause(),
         },
-        [isPaused]
+        [isPaused],
     );
 
     return (

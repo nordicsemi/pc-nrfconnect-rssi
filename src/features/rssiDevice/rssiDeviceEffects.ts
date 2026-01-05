@@ -37,7 +37,7 @@ export const deviceSetupConfig: DeviceSetupConfig = {
                 d.serialPorts.length > 0 &&
                 !!d.traits.nordicUsb &&
                 !!d.usb &&
-                d.usb.device.descriptor.idProduct === 0xc00a
+                d.usb.device.descriptor.idProduct === 0xc00a,
         ),
         jprogDeviceSetup(
             [
@@ -49,7 +49,7 @@ export const deviceSetupConfig: DeviceSetupConfig = {
                 },
             ],
             true,
-            true
+            true,
         ),
     ],
 };
@@ -73,7 +73,7 @@ export const openDevice =
                     error => {
                         if (error) {
                             logger.error(
-                                `Failed to open serial port ${comPort}.`
+                                `Failed to open serial port ${comPort}.`,
                             );
                             logger.error(`Error ${error}.`);
                             return;
@@ -81,7 +81,7 @@ export const openDevice =
 
                         dispatch(setSerialPort(serialPort));
                         logger.info(`Serial Port ${comPort} has been opened`);
-                    }
+                    },
                 );
             }
         }
@@ -102,8 +102,8 @@ export const recoverHex =
                     () => {},
                     undefined,
                     false,
-                    false
-                )
+                    false,
+                ),
             );
         });
     };

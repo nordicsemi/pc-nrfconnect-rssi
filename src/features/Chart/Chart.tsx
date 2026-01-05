@@ -35,13 +35,13 @@ Chart.register(ChartDataLabels, BarElement, CategoryScale, LinearScale);
 const rssiColors = bleChannels.map(channel =>
     bleChannels.isAdvertisement(channel)
         ? color.bar.advertisement
-        : color.bar.normal
+        : color.bar.normal,
 );
 
 const rssiMaxColors = bleChannels.map(channel =>
     bleChannels.isAdvertisement(channel)
         ? color.bar.advertisementMax
-        : color.bar.normalMax
+        : color.bar.normalMax,
 );
 
 const labels = bleChannels;
@@ -154,7 +154,7 @@ export default () => {
                                         callback: (_, index: number) =>
                                             String(bleChannels[index]).padStart(
                                                 2,
-                                                '0'
+                                                '0',
                                             ),
                                         minRotation: 0,
                                         maxRotation: 0,
