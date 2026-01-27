@@ -6,6 +6,12 @@ You can use the tool with a sniffer device to look for interferers, check how ch
 
 The {{app_name}} is installed and updated using [nRF Connect for Desktop](https://docs.nordicsemi.com/bundle/nrf-connect-desktop/page/index.html).
 
+## Installing the {{app_name}}
+
+For installation instructions, see [Installing nRF Connect for Desktop apps](https://docs.nordicsemi.com/bundle/nrf-connect-desktop/page/installing_apps.html) in the nRF Connect for Desktop documentation.
+
+!!! note "Note"
+    {{legacy_driver_note}}
 ## Supported devices
 
 You can use the following Nordic Semiconductor devices as the sniffer with the {{app_name}}:
