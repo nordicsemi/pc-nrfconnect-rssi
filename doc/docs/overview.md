@@ -1,8 +1,8 @@
 # Overview and user interface
 
-After starting the {{app_name}}, the main application window is displayed.
+After starting the RSSI Viewer app, the main application window is displayed.
 
-![{{app_name}} window](./screenshots/rssi_overview.png "{{app_name}} window")
+![RSSI Viewer app window](./screenshots/rssi_overview.png "RSSI Viewer app window")
 
 The available options and information change after you **Select Device**.
 
@@ -12,13 +12,13 @@ Before a device is selected, the side panel contains the following buttons:
 
 ### Select Device
 
-Drop-down to list the devices attached to the computer. When you connect a [supported device](index.md#supported-devices) and select it in this menu, the {{app_name}} programs the device with the correct sniffer firmware, and then connects to one of the available serial ports. Sniffing starts automatically.
+Drop-down to list the devices attached to the computer. When you connect a [supported device](index.md#supported-devices) and select it in this menu, the RSSI Viewer app programs the device with the correct sniffer firmware, and then connects to one of the available serial ports. Sniffing starts automatically.
 
 ## After selection
 
 When a device is selected, sniffing in the 2.4 GHz range starts automatically and the side panel options become available.
 
-![{{app_name}} window after selecting a device](./screenshots/rssi_viewer_working.gif "{{app_name}} window after selecting a device")
+![RSSI Viewer app window after selecting a device](./screenshots/rssi_viewer_working.gif "RSSI Viewer app window after selecting a device")
 
 ### Controls
 

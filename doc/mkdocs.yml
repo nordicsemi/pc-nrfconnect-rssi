@@ -13,8 +13,9 @@ theme:
       toggle:
         icon: material/lightbulb
         name: Switch to light mode
-  # logo: assets/logo.png
-  # favicon: assets/logo.png
+   # logo: assets/logo.png
+   # favicon: assets/logo.png
+
   features:
     - content.code.annotate
     - content.tooltips
@@ -25,12 +26,11 @@ theme:
     - search.highlight
     - toc.follow
 
-
 extra_css:
   - stylesheets/style.css
 
 copyright:
-  Copyright &copy; 2019-2024
+  Copyright &copy; 2019-2026
 
 markdown_extensions:
   - abbr
@@ -50,13 +50,10 @@ plugins:
   - macros
   - search
 
-
 extra:
   test: This is a test abbreviation snippet
-  app_name: RSSI Viewer app
   legacy_driver_note: Make sure you have installed the [additional requirements](https://docs.nordicsemi.com/bundle/nrf-connect-desktop/page/download_cfd.html#additional-requirements) for nRF Connect for Desktop. On Windows, SEGGER USB Driver for J-Link is required for correctly detecting the development kits from nRF52 Series, nRF53 Series, and nRF91 Series using [legacy probes](https://kb.segger.com/J-Link_Installer#USB_Driver).
 
 nav:
-  - Home: index.md
-  - Installing the RSSI Viewer app: installing.md
-  - Overview and user interface: overview.md
+- Get started: index.md
+- Overview and user interface: overview.md
