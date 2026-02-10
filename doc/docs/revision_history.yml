@@ -2,5 +2,21 @@ tool:
 - name: RSSI Viewer app
   link: true
 sections:
-- name:
+- name: January 2026
   entries:
+  - "Merged the separate Installing the RSSI Viewer app page into the [Get started](./index.md) page."
+  - "Minor editorial changes to [Get started](./index.md) and [Overview](./overview.md)."
+- name: September 2025
+  entries:
+  - "Moved legacy USB driver note to the installing app section on the [Get started](./index.md) page."
+  - "Added note about legacy USB drivers."
+  - "Clarified supported devices on the [Get started](./index.md) and [Overview](./overview.md) pages."
+- name: January 2025
+  entries:
+  - "Added the [Application source code](./index.md#application-source-code) section on the [Get started](./index.md) page."
+- name: November 2024
+  entries:
+  - "Renamed the app and made related editorial changes to [Get started](./index.md), installing, and [Overview](./overview.md)."
+- name: July 2024
+  entries:
+  - "Added basic documentation for the [Get started](./index.md), installing, and [Overview](./overview.md) pages."
