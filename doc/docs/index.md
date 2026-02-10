@@ -1,4 +1,4 @@
-# RSSI Viewer app
+# Get started
 
 The RSSI Viewer app is a cross-platform tool that shows dBm per frequency in the 2.4 GHz range. It scans the 2400-2480 MHz range, records signal level on the Bluetooth® Low Energy channel frequencies, and presents the results.
 
