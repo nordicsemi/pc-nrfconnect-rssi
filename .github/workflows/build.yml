@@ -2,10 +2,13 @@ name: Build
 
 on:
     workflow_dispatch:
-    push:
-        branches-ignore:
-            - main # Skip for main because we build while releasing to "latest"
+    pull_request:
+        types:
+            - opened
+            - synchronize
+            - reopened
+            - labeled
 
 jobs:
     build:
-        uses: NordicSemiconductor/pc-nrfconnect-shared/.github/workflows/build-app.yml@main
+        uses: NordicSemiconductor/pc-nrfconnect-shared/.github/workflows/build-app.yml@push-zlwuyylnnpqv

@@ -1,5 +1,7 @@
 # Overview and user interface
 
+Changed
+
 After starting the RSSI Viewer app, the main application window is displayed.
 
 ![RSSI Viewer app window](./screenshots/rssi_overview.png "RSSI Viewer app window")
