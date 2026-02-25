@@ -8,7 +8,7 @@ The RSSI Viewer app is installed and updated using [nRF Connect for Desktop](htt
 
 ## Installing the RSSI Viewer app
 
-For installation instructions, see [Installing nRF Connect for Desktop apps](https://docs.nordicsemi.com/bundle/nrf-connect-desktop/page/installing_apps.html) in the nRF Connect for Desktop documentation.
+For installation instructions, see [Installing nRF Connect for Desktop apps](https://docs.nordicsemi.com/bundle/nrf-connect-desktop/page/installing_apps.html).
 
 !!! note "Note"
     {{legacy_driver_note}}
