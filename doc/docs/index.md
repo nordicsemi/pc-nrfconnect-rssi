@@ -19,7 +19,7 @@ You can use the following Nordic Semiconductor devices as the sniffer with the R
 - nRF52840 DK (PCA10056)
 - nRF52840 Dongle (PCA10059)
 
-When you [select the device](overview.md#select-device), the tool will reprogram the connected board to act as the sniffer.
+When you [select the device](https://docs.nordicsemi.com/bundle/swtools_docs/page/common_interface.html#select-device), the tool will reprogram the connected board to act as the sniffer.
 
 !!! note "Note"
     {{legacy_driver_note}}
