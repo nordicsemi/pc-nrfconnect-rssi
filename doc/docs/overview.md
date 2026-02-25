@@ -6,7 +6,7 @@ After starting the RSSI Viewer app, the main application window is displayed.
 
 ## Common interface
 
-This app uses the nRF Connect for Desktop UI framework. Shared UI elements such as **Select device**, **About** tab, and **Log** panel are described in the [Common user interface](https://docs.nordicsemi.com/bundle/nrf-connect-desktop/page/common_interface.html) documentation.
+This app uses the nRF Connect for Desktop UI framework. Shared UI elements such as **Select device**, **About** tab, and **Log** panel are described in the [Common user interface](https://docs.nordicsemi.com/bundle/swtools_docs/page/common_interface.html) documentation.
 
 The available options and information change after you select a device. When you connect a [supported device](index.md#supported-devices) and select it in the **Select device** menu, the RSSI Viewer app programs the device with the correct sniffer firmware, and then connects to one of the available serial ports. Sniffing starts automatically.
 
