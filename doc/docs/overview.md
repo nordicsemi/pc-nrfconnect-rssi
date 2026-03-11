@@ -4,15 +4,11 @@ After starting the RSSI Viewer app, the main application window is displayed.
 
 ![RSSI Viewer app window](./screenshots/rssi_overview.png "RSSI Viewer app window")
 
-The available options and information change after you **Select Device**.
+## Common interface
 
-## Before selection
+This app uses the nRF Connect for Desktop UI framework. Shared UI elements such as **Select device**, **About** tab, and **Log** panel are described in the [Common user interface](https://docs.nordicsemi.com/bundle/swtools_docs/page/common_interface.html) documentation.
 
-Before a device is selected, the side panel contains the following buttons:
-
-### Select Device
-
-Drop-down to list the devices attached to the computer. When you connect a [supported device](index.md#supported-devices) and select it in this menu, the RSSI Viewer app programs the device with the correct sniffer firmware, and then connects to one of the available serial ports. Sniffing starts automatically.
+The available options and information change after you select a device. When you connect a [supported device](index.md#supported-devices) and select it in the **Select device** menu, the RSSI Viewer app programs the device with the correct sniffer firmware, and then connects to one of the available serial ports. Sniffing starts automatically.
 
 ## After selection
 
@@ -67,16 +63,3 @@ You can read the channel color coding the following way:
 | Dark hue (green or blue)             | Average value for the given channel. Depends on the value selected in **Hold values for X ms** in [**Channel Details**](#channel-details).                                             |
 | Light hue (green or blue)            | Maximum value for the given channel.                                              |
 | Numerical value                      | The maximum value for the given channel for the time selected in the [**Sweep Scan**](#sweep-scan) area and the amount of scans selected in **Show max for last X scans** in [**Channel Details**](#channel-details). |
-
-## Log
-
-The Log panel allows you to view the most important log events, tagged with a timestamp. Each time you open the app, a new session log file is created. You can find the Log panel and its controls, below the main application Window.
-
-- When troubleshooting, to view more detailed information than shown in the Log panel, use **Open log file** to open the current log file in a text editor.
-- To clear the information currently displayed in the Log panel, use **Clear Log**. The contents of the log file are not affected.
-- To hide or display the Log panel in the user interface, use **Show Log**.
-- To freeze Log panel scrolling, use **Autoscroll Log**.
-
-## About tab
-
-You can view application information, restore defaults, access source code and documentation. You also can find information on the selected device, access support tools, send feedback, and enable verbose logging.
