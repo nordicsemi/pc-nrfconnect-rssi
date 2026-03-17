@@ -13,15 +13,15 @@ sweep delay and animation duration.
 
 The RSSI Viewer app is installed from nRF Connect from Desktop. For detailed
 steps, see
-[Installing nRF Connect for Desktop apps](https://docs.nordicsemi.com/bundle/nrf-connect-desktop/page/installing_apps.html)
+[Installing nRF Connect for Desktop apps](https://docs.nordicsemi.com/bundle/swtools_docs/page/app/nrf-connect-desktop/installing_apps.html)
 in the nRF Connect from Desktop documentation.
 
 ## Documentation
 
 Read the
-[RSSI Viewer app](https://docs.nordicsemi.com/bundle/nrf-connect-rssi-viewer/page/index.html)
+[RSSI Viewer app](https://docs.nordicsemi.com/bundle/swtools_docs/page/app/pc-nrfconnect-rssi/index.html)
 official documentation, which includes information about the
-[application UI](https://docs.nordicsemi.com/bundle/nrf-connect-rssi-viewer/page/overview.html).
+[application UI](https://docs.nordicsemi.com/bundle/swtools_docs/page/app/pc-nrfconnect-rssi/overview.html).
 
 ## Development
 
