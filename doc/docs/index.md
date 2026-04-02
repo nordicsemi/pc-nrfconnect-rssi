@@ -26,5 +26,5 @@ When you [select the device](https://docs.nordicsemi.com/bundle/swtools_docs/pag
 
 ## Application source code
 
-The code of the application is open source and [available on GitHub](https://github.com/NordicSemiconductor/pc-nrfconnect-rssi).
+The code of the application is open source and [available on GitHub](https://github.com/nordicsemi/pc-nrfconnect-rssi).
 Feel free to fork the repository and clone it for secondary development or feature contributions.
