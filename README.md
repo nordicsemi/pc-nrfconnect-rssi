@@ -1,6 +1,5 @@
 # RSSI Viewer app
 
-[![Build Status](https://dev.azure.com/NordicSemiconductor/Wayland/_apis/build/status/NordicSemiconductor.pc-nrfconnect-rssi?branchName=main)](https://dev.azure.com/NordicSemiconductor/Wayland/_build/latest?definitionId=9&branchName=main)
 [![License](https://img.shields.io/badge/license-Modified%20BSD%20License-blue.svg)](LICENSE)
 
 The RSSI Viewer app in nRF Connect for Desktop is a tool that shows dBm per
