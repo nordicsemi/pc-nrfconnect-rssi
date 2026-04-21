@@ -23,6 +23,6 @@ render(
         appReducer={reducer}
         deviceSelect={<DeviceSelector />}
         sidePanel={<SidePanel />}
-        panes={[{ name: 'RSSI Viewer', Main: Chart }]}
+        panes={[{ name: 'RSSI Viewer changed', Main: Chart }]}
     />,
 );
