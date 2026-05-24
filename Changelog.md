@@ -1,3 +1,9 @@
+## 1.7.4 - Unreleased
+
+### Added
+
+- Deprecation warning.
+
 ## 1.7.3 - 2025-05-22
 
 ### Changed
