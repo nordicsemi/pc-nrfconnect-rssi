@@ -84,7 +84,8 @@ export default () => {
             <Alert variant="warning">
                 <div>
                     <p className="tw-mb-0">
-                        The existing app will be deprecated and no longer supported.
+                        The existing app will be deprecated and no longer
+                        supported.
                     </p>
                 </div>
             </Alert>
