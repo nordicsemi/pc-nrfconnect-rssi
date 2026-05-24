@@ -5,9 +5,9 @@
  */
 
 import {
-    AppThunk,
-    Device,
-    DeviceSetupConfig,
+    type AppThunk,
+    type Device,
+    type DeviceSetupConfig,
     getAppFile,
     isDeviceInDFUBootloader,
     jprogDeviceSetup,

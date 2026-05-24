@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LicenseRef-Nordic-4-Clause
  */
 
-import { SerialPort } from 'serialport';
+import { type SerialPort } from 'serialport';
 
 export type RssiDevice = Awaited<ReturnType<typeof createRssiDevice>>;
 
