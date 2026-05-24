@@ -7,7 +7,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { DeviceSelector } from '@nordicsemiconductor/pc-nrfconnect-shared';
-import { DeviceTraits } from '@nordicsemiconductor/pc-nrfconnect-shared/nrfutil/device';
+import { type DeviceTraits } from '@nordicsemiconductor/pc-nrfconnect-shared/nrfutil/device';
 
 import {
     closeDevice,

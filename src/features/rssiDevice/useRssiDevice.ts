@@ -7,7 +7,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
-    AppThunk,
+    type AppThunk,
     getReadbackProtection,
     logger,
 } from '@nordicsemiconductor/pc-nrfconnect-shared';

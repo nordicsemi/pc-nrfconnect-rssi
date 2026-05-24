@@ -5,12 +5,12 @@
  */
 
 import { bleChannels } from '@nordicsemiconductor/pc-nrfconnect-shared';
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
 import type { AutoDetectTypes } from '@serialport/bindings-cpp';
-import { SerialPort } from 'serialport';
+import { type SerialPort } from 'serialport';
 
 import type { RootState } from '../../app/store';
-import { RssiDevice } from './createRssiDevice';
+import { type RssiDevice } from './createRssiDevice';
 
 const initialData = () => new Array(81).fill(undefined).map(() => []);
 
