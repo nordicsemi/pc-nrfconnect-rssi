@@ -81,6 +81,14 @@ export default () => {
 
     return (
         <div className="d-flex flex-column h-100">
+            <Alert variant="warning">
+                <div>
+                    <p className="tw-mb-0">
+                        The RSSI Viewer app is deprecated and no longer
+                        supported.
+                    </p>
+                </div>
+            </Alert>
             {device &&
                 noData &&
                 readbackProtection !== 'NRFDL_PROTECTION_STATUS_NONE' && (

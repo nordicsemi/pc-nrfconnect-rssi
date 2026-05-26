@@ -4,6 +4,9 @@ The RSSI Viewer app is a cross-platform tool that shows dBm per frequency in the
 
 You can use the tool with a sniffer device to look for interferers, check how channels are used, and to tweak settings like sweep delay and animation duration.
 
+!!! note "Note"
+    {{rssi_deprecation_note}}
+
 ## Installing the RSSI Viewer app
 
 For installation instructions, see [Installing nRF Connect for Desktop apps](https://docs.nordicsemi.com/bundle/nrf-connect-desktop/page/installing_apps.html).

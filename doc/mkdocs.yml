@@ -53,6 +53,7 @@ plugins:
 extra:
   test: This is a test abbreviation snippet
   legacy_driver_note: Make sure you have installed the [additional requirements](https://docs.nordicsemi.com/bundle/nrf-connect-desktop/page/download_cfd.html#additional-requirements) for nRF Connect for Desktop. On Windows, SEGGER USB Driver for J-Link is required for correctly detecting the development kits from nRF52 Series, nRF53 Series, and nRF91 Series using [legacy probes](https://kb.segger.com/J-Link_Installer#USB_Driver).
+  rssi_deprecation_note: The RSSI Viewer app is deprecated and no longer supported.
 
 nav:
 - Get started: index.md
