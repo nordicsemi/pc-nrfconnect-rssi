@@ -4,7 +4,7 @@ tool:
 sections:
 - name: May 2026
   entries:
-  - "Added the note about deprecation of the RSSI Viewer appon the [Get started](./index.md) and [Overview](./overview.md) pages."
+  - "Added the note about deprecation of the RSSI Viewer app on the [Get started](./index.md) and [Overview](./overview.md) pages."
 - name: January 2026
   entries:
   - "Merged the separate Installing the RSSI Viewer app page into the [Get started](./index.md) page."
