@@ -84,7 +84,7 @@ export default () => {
             <Alert variant="warning">
                 <div>
                     <p className="tw-mb-0">
-                        The existing app will be deprecated and no longer
+                        The RSSI Viewer app is deprecated and no longer
                         supported.
                     </p>
                 </div>

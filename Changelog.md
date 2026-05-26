@@ -2,7 +2,7 @@
 
 ### Added
 
-- Deprecation warning.
+- Deprecation note.
 
 ## 1.7.3 - 2025-05-22
 
