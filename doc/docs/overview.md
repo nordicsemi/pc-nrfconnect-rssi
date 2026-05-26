@@ -2,6 +2,9 @@
 
 After starting the RSSI Viewer app, the main application window is displayed.
 
+!!! note "Note"
+    {{rssi_deprecation_note}}
+
 ![RSSI Viewer app window](./screenshots/rssi_overview.png "RSSI Viewer app window")
 
 ## Common interface
