@@ -16,6 +16,9 @@ on:
                     default branch'
                 type: string
 
+permissions:
+    contents: write
+
 jobs:
     release:
         uses: nordicsemi/pc-nrfconnect-shared/.github/workflows/release-app.yml@main
